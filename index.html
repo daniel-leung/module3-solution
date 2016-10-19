@@ -1,10 +1,84 @@
-<!DOC html>
-<html>
-<head>
-<title>Title</title>
-</head>
-<body>
-<h1>Heading One</h1>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment Solution for Module 3</title>
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+    <body>
+      <header>
+        <nav id="header-nav" class="navbar">
+        <div class="container">
+          <div class="navbar-header">
+            <!--<a href="index.html" class="pull-left visible-md visible-lg">-->
+              <div class="navbar-brand pull-left">
+                <a href="index.html"><h1>Food, LLC</h1></a>
+              </div>
 
-</body>
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+          </div>
+
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li>
+                <a href="chicken.html"><hr class="visible-xs">Chicken</a>
+              </li>
+              <li>
+                <a href="beef.html">
+                  <hr class="visible-xs">Beef
+                </a>
+              </li>
+              <li>
+                <a href="sushi.html">
+                  <hr class="visible-xs">Sushi
+                </a>
+              </li>
+          </div>
+        </div>
+      </nav>
+      </header>
+
+      <div id="main-content" class="container">
+          <h1 class="text-center">Our Menu</h1>
+        <div id="home-tiles" class="row">
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div id="chicken-tile">
+              <a href="chicken.html"><span>Chicken</span></a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <div id="beef-tile">
+              <a href="beef.html"><span>Beef</span></a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <div id="sushi-tile">
+              <a href="sushi.html"><span>Sushi</span></a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+          </div>
+        </div> <!-- End of #home-tiles -->
+      </div><!--- End of #main-content --->
+      <!-- jQuery (Bootstrap JS plugins depend on it)
+      <script src="js/jquery-2.1.4.min.js"></script>
+      <script src="js/bootstrap.min.js"></script> -->
+
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
 </html>

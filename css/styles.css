@@ -1,0 +1,123 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: #fff; /*#61122f;*/
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  background-color: orange;
+  background-image: image(none);
+  border-radius: 0px;
+  border: 2px solid #3F0C1F;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand p {
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+
+.navbar-brand p span {
+  vertical-align: middle;
+}
+
+#nav-list{
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: #951c49;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#nav-list a:hover {
+  color: #E7E7E7;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+hr {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  height: 0;
+  width: 104%;
+  max-height: 0;
+  font-size: 1px;
+  line-height: 0;
+  clear: both;
+  margin-left: -15px;
+  margin-top: -10px;
+  border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid grey;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/*End Header*/
+
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #3F0C1F;
+}
+
+
+#chicken-tile, #beef-tile, #sushi-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  position: relative;
+  background-color: orange;
+}
+#chicken-tile:hover, #beef-tile:hover, #sushi-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#chicken-tile p, #beef-tile p, #sushi-tile p {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  color: #fff;
+}
+
+#chicken-tile span, #beef-tile span, #sushi-tile span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+}
